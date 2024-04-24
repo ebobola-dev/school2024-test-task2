@@ -29,3 +29,4 @@ most_popular_categories = get_most_popular_categories(category_statistics)
 print(f'\nНаиболее популярные категории: {', '.join(most_popular_categories)}')
 
 JsonUtils.write('result.json', {'categories': most_popular_categories})
+print('\nРезультат записан в файл "{result.json}"')
